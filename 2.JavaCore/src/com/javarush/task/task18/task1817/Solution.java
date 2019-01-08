@@ -27,10 +27,6 @@ public class Solution {
 
         DecimalFormat df = new DecimalFormat("##.00");
 
-//        f = Math.round(f);
-
-//        df.format(f);
-
         System.out.println(df.format(f));
         fileInputStream.close();
 

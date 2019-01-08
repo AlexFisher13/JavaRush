@@ -19,13 +19,8 @@ public class Solution {
             file1.write(file2.read());
         }
 
-        while (file3.available() > 0) {
-            file1.write(file3.read());
+        while (file3.available() > 0) { file1.write(file3.read());
         }
-
-
-
-
 
 
         reader.close();
